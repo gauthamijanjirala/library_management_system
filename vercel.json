@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "builds": [
     {
       "src": "build/web/**",
@@ -8,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/build/web/index.html"
+      "dest": "build/web/index.html"
     }
   ]
 }
